@@ -19,7 +19,7 @@ home.onclick=()=>{
     location.href="./index.html";
 }
 
-if(printscore>474)
+if(printscore>=474)
 document.getElementById("quote").innerHTML ="GREAT GAME";
 else if(printscore>0&&printscore<=100)
 document.getElementById("quote").innerHTML ="NOT FIT FOR PLAYING GAMES";
@@ -28,6 +28,6 @@ document.getElementById("quote").innerHTML ="COULD PLAY BETTER";
 else if(printscore>274&&printscore<=374)
 document.getElementById("quote").innerHTML ="BETTER THAN MANY PEOPLE";
 else 
-document.getElementById("quote").innerHTML ="FIT FOR NOTHING";
+document.getElementById("quote").innerHTML ="You HAVE THE POTENTIAL";
 
 document.getElementById("namescore").innerHTML = printname+" Scored : "+printscore;
